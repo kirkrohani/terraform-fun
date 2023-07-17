@@ -1,4 +1,5 @@
 
+//******* REMOVE THIS
 
 resource "aws_instance" "myec2" {
   ami = "ami-06ca3ca175f37dd66"
@@ -7,3 +8,5 @@ resource "aws_instance" "myec2" {
     Name = "terraform-ec2-v1"
   }
 }
+
+provider azurerm {}
