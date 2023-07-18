@@ -16,5 +16,5 @@ resource "github_repository" "terraform-example" {
   description = "My awesome terraform codebase"
 
   visibility = "public"
-
 }
+
